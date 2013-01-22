@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="ActionScript">
+  <template name="pv" value="public var $END$;" description="public var" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="prv" value="protected var $END$;" description="protected var" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="psv" value="public static var $END$;" description="public static var" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="prsv" value="protected static var $END$" description="protected static var" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="prf" value="protected function $NAME$($ARGS$):$RETURN_TYPE$ {&#10; $END$ &#10;}" description="protected function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="&quot;void&quot;" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="prsf" value="protected static function $NAME$($ARGS$):$RETURN_TYPE$ {&#10; $END$ &#10;}" description="protected static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="&quot;void&quot;" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="prc" value="protected const $END$;" description="protected const" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="psc" value="public static const $END$;" description="public static const" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="prsc" value="protected static const $END$;" description="protected static const" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="pfg" value="public function get $NAME$():$RETURN_TYPE$ {&#10; $END$ &#10;}" description="public function get" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="&quot;void&quot;" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="ACTION_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pfs" value="public function set $NAME$(value:$ARGS$):void {&#10; $END$ &#10;}" description="public function set" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ACTION_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
+

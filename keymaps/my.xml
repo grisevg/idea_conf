@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="my" parent="$default">
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="CloseWindow">
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="Console.Hibernate.Execute" />
+  <action id="Console.History.BrowseTW" />
+  <action id="Console.Jdbc.Execute" />
+  <action id="Console.Jpa.Execute" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditorChooseLookupItemAlways" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="control E" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="control T" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="control ENTER" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift control T" />
+  </action>
+  <action id="ExportToTextFile" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="control alt N" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.ShowThumbnails" />
+  <action id="Inline" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="N" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift control V" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="shift N" />
+  </action>
+  <action id="RecentFiles" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift control INSERT" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="control B" />
+  </action>
+  <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="alt O" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="control M" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+  <action id="ViewSource">
+    <keyboard-shortcut first-keystroke="control alt T" />
+  </action>
+</keymap>
+

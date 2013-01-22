@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inspections version="1.0" is_locked="false">
+  <option name="myName" value="my" />
+  <option name="myLocal" value="false" />
+  <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="ClassNameDiffersFromFileName" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="DefaultNotLastCaseInSwitchJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="DuplicateConditionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="EmptyClass" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignorableAnnotations">
+      <value />
+    </option>
+    <option name="ignoreClassWithParameterization" value="false" />
+    <option name="ignoreThrowables" value="true" />
+  </inspection_tool>
+  <inspection_tool class="ForLoopReplaceableByWhileJS" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_ignoreLoopsWithoutConditions" value="false" />
+  </inspection_tool>
+  <inspection_tool class="IfStatementWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="IfStatementWithTooManyBranchesJS" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+    <option name="m_limit" value="3" />
+  </inspection_tool>
+  <inspection_tool class="JSFieldCanBeLocal" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JSMethodCanBeStatic" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="TailRecursionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="XmlUnusedNamespaceDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+</inspections>
+
